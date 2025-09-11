@@ -1,10 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Name - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #222;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    .project {
+      background: #fff;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I’m Your Name</h1>
-  <p>Data Scientist | Python | SQL | Machine Learning</p>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Data Scientist | Machine Learning | SQL | Python</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Data Scientist with expertise in Machine Learning, Time Series Forecasting, 
+      and Natural Language Processing. I enjoy solving complex problems with data-driven 
+      approaches and creating impactful solutions.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Hotel Reviews Topic Modeling</h3>
+      <p>Applied NLP techniques (LDA, NMF) to analyze customer reviews and extract key themes.</p>
+      <a href="https://github.com/your-username/hotel-reviews-topic-modeling" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Time Series Forecasting</h3>
+      <p>Built ARIMA and Exponential Smoothing models to predict business KPIs with accuracy.</p>
+      <a href="https://github.com/your-username/time-series-forecasting" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Decision-Making with TOPSIS</h3>
+      <p>Implemented a multi-criteria decision-making model to rank alternatives effectively.</p>
+      <a href="https://github.com/your-username/topsis-project" target="_blank">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a></p>
+    <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
